@@ -51,11 +51,11 @@ class swApp extends React.Component{
     render(){
         return(
             <Flex height="100vh" align="center" justify="center">
-                <Card  bg="black" w="lg" h="xs">
+                <Card  bg="black" w="400px" h="200px">
                     <CardBody>
                     <div>
                         <Box display="flex" alignItems="center" justifyContent="center">
-                            <Text className="stopwatch-display" fontSize="8xl" color="white">{this.formatTime(this.state.elapsedTime)}</Text>
+                            <Text className="stopwatch-display" fontSize="6xl" color="white">{this.formatTime(this.state.elapsedTime)}</Text>
                         </Box>
                         <Box display="flex" alignItems="center" justifyContent="center" mt="10px">
                             <Stack spacing={10} direction='row' align='center'>
